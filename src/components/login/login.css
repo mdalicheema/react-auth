@@ -1,0 +1,32 @@
+.login {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 15px 5px grey;
+    position: relative;
+}
+
+.login > .button {
+    background-color: rgb(69, 69, 218);
+    border: 1px solid rgb(50, 50, 165);
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.login > input {
+    border-radius: 10px;
+    padding: 5px 50px;
+    margin: 5px;
+    border: 1px solid orange;
+    outline: none;
+}
